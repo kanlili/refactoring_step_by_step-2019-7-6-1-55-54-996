@@ -35,7 +35,7 @@ class PoliceTest {
     @Test
     public void should_return_true_when_driver_equal_age() {
         //given
-       
+
         Driver driver=new Driver(18);
         //when
         boolean result=police.checkDriver(driver);
